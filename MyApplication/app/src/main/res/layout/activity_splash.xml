@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/it_gun2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_width="251dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/audiowide"
+        android:text="Armwelders Gun Data"
+        android:textSize="24sp" />
+
+
+</FrameLayout>
